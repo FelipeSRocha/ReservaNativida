@@ -100,6 +100,9 @@ const Container = styled.div`
   background-color: ${lightTheme.colors.branco};
   display: grid;
   grid-template-rows: 50% 50%;
+  @media (max-width: ${lightTheme.breakPoint}) {
+    width:100vw;
+  }
 `;
 const Carrosel = styled.div`
   position: relative;

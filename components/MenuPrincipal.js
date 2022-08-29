@@ -125,7 +125,7 @@ const MenuHeader = styled.header`
       min-width: 250px;
       max-width: 330px;
       height: 40vh;
-      top: 63px;
+      top: 60px;
       flex-direction: column;
       background-color: ${lightTheme.colors.branco};
       align-items: center;
